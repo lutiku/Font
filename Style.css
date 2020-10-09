@@ -1,0 +1,170 @@
+
+
+
+
+
+nav.fixed-top{
+    background-color: white;
+    height: 8vh;
+    -webkit-box-shadow: 4px 6px 5px 0px rgba(247,247,247,1);
+    -moz-box-shadow: 4px 6px 5px 0px rgba(247,247,247,1);
+    box-shadow: 4px 6px 5px 0px rgba(247,247,247,1);
+}
+
+a.navbar-brand{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#header.hidden{
+    top: -8vh;
+    box-shadow: none;
+}
+
+.nav-link{
+    color: black;
+}
+
+.navCategories{
+
+}
+
+
+section{
+    width: 100vw;
+    height: 100vh;
+}
+
+section.one{
+    background-color:#FFFFFF;
+    display: flex;
+
+}
+
+section.two{
+    background-color:pink;
+    display: flex;
+
+}
+
+section.three{
+    background-color:antiquewhite;
+
+}
+
+div.container{
+    //background-color: palevioletred;
+    display: flow-root;
+
+}
+
+span p{
+    margin-top:25%;
+}
+
+div.row_1{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* margin-top: 10%; */
+    margin-left: 38%;
+    //background-color: green;
+    width: fit-content;
+    /* height: 28vh; */
+    height: 28vh;
+    margin-top: 9%;
+/* position: unset; */
+    position: absolute;
+}
+
+div.row_2{
+
+    display: flex;
+    margin-left: 42%;
+    position: absolute;
+//margin-top: 14%;
+    justify-content: space-between;
+    width: 12%;
+    //background-color: firebrick;
+    margin-top: 13%;
+
+}
+
+div.row_3{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: fit-content;
+height: 28vh;
+
+    margin-left: 42%;
+    margin-top: 21.2%;
+    position: absolute;
+
+
+}
+
+div.row_4{
+    display: flex;
+    position: absolute;
+    margin-top: 21.1%;
+    margin-left: 21.8%;
+    justify-content: space-between;
+    width: 16%;
+    //background-color: navajowhite;
+
+
+}
+
+div.row_5{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    height: 35vh;
+    //background-color:darkgoldenrod;
+    margin-left: 30%;
+    margin-top: 25.2%;
+    position: absolute;
+
+}
+
+div.row_6{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    width: 11.8%;
+    //background-color: pink;
+    margin-top: 33.5%;
+    margin-left: 18%;
+}
+
+
+div.row_7{
+    display: flex;
+    //flex-direction: column;
+    justify-content: space-between;
+    width: fit-content;
+    height: fit-content;
+background-color:darkgoldenrod;
+
+    margin-top: 50%;
+    position: absolute;
+
+}
+
+
+.row_1 span, .row_2 span, .row_3 span, .row_4 span, .row_5 span, .row_6 span{
+display: inline-block;
+width: 55px;
+height: 55px;
+text-align: center;
+border: solid 1px #888;
+}
+
+
+.letter_r{
+    font-family: 'Poppins', sans-serif;
+}
+
