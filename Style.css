@@ -1,7 +1,13 @@
 
-
-
-
+img.logo{
+    height: 75%;
+}
+div.typo{
+    width: 50%;
+    height: 80%;
+    //background-color: #F4F7F3;
+    margin: auto;
+}
 
 nav.fixed-top{
     background-color: white;
@@ -22,7 +28,7 @@ a.navbar-brand{
 }
 
 .nav-link{
-    color: black;
+    color: #1F3277;
 }
 
 .navCategories{
@@ -48,7 +54,7 @@ section.two{
 }
 
 section.three{
-    background-color:antiquewhite;
+    //background-color:antiquewhite;
 
 }
 
@@ -164,7 +170,18 @@ border: solid 1px #888;
 }
 
 
-.letter_r{
-    font-family: 'Poppins', sans-serif;
+div.alphabet-row-1{
+    background-color: red;
+    width: 50%;
+    margin-left: 25%;
 }
+
+
+section.three img{
+    height: 40%;
+    margin-top: 13%;
+    margin-left: 5%;
+}
+
+
 
