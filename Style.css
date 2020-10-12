@@ -213,12 +213,13 @@ img.words{
 }
 
 p.quote{
-    text-align: right;
     position: absolute;
     margin-top: 50%;
     margin-left: 82%;
     /* background-color: firebrick; */
     width: 15%;
+    color: #303033;
+    font-style: italic;
 }
 
 div.side-div{
@@ -241,4 +242,36 @@ div.side-div p{
     text-orientation: mixed;
     width: fit-content;
     height: fit-content;
+}
+
+div.grille{
+    height: 50%;
+    width: 80%;
+   // background-color: red;
+    margin: auto;
+    justify-content: space-between;
+}
+div.grid{
+
+    height: 50%;
+    width: 20%;
+
+
+    display: flex;
+    justify-content: center;
+    border: 0.25px black;
+    border-style: none solid none ;
+
+}
+
+div.grid img{
+    height: 79%;
+
+}
+
+p.lesMots{
+    height: fit-content;
+    width: 30%;
+    margin-top: 10%;
+    border-bottom: 1px black;
 }
